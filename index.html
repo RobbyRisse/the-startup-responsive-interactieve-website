@@ -1,50 +1,467 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/startup.css">
-    <title>Backbase</title>
-  
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title> ACCELERATOR PORTAL </title>
 </head>
+
 <body>
-    <header>
-        <h1>Backbase</h1>
-        
-    </header>
-    <nav>
-        <a href="#">Product</a>
-        <a href="#">Developers</a>
-        <a href="#">Documentation</a>
-        <a href="#">Delivery</a>
-        <a href="#">Learning</a>
-    </nav>
-    <main>
-        <section>
-            <h2>Accelerator Portal</h2>
-            <p>Content.</p>
-        </section>
-        <div class="sortby">
-            <button onclick="myFunction()" class="dropbtn">Sort By</button>
-            <div id="myDropdown" class="dropdown-content">
-              <a href="#">About</a>
-              <a href="#base">Base</a>
-              <a href="#blog">Blog</a>
-              <a href="#contact">Contact</a>
-              <a href="#custom">Custom</a>
-              <a href="#support">Support</a>
-              <a href="#tools">Tools</a>
+
+<header>
+<div class="container">
+<div class="nav">
+     <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+                    <div class="nav-title">
+                        <a href="https://www.backbase.com/"><img src="assets/backbaselogo.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="nav-btn">
+                    <label for="nav-check">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </div>
+
+                <div class="header-right">
+                    <div class="navigation">
+                        <ul>
+                            <li><a href="#">Product</a></li>
+                            <li class="active"><a href="#">Developers</a></li>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Delivery </a></li>
+                            <li><a href="#">Learning</a></li>
+                        </ul>
+                    </div>
+                    <div class="header-list">
+                        <ul>
+                            <li><a href="#"><img src="images/search-icon.png" alt="" /></a></li>
+                            <li><a href="#"><img src="images/language-icon.png" alt="" /></a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
-
-        
-
-    </main>
+        </div>
+    </header>
+    <section class="banner-sec">
+        <div class="container">
+            <div class="text-box">
+                <h1>Accelerator Portal</h1>
+            </div>
+        </div>
+    </section>
+    <section class="accelerator-sec">
+        <div class="container">
+            <div class="accelerator-inner">
+                <div class="accelerator-listing">
+                    <select class="form-control">
+                        <option class="select">Select product line</option>
+                        <option>Digital Banking</option>
+                        <option>Digital Onboarding</option>
+                        <option>Digital Lending</option>
+                        <option>Digital Assist</option>
+                        <option>Digital Engage
+                        </option>
+                    </select>
+                </div>
+                <div class="portal-sort">
+                    <h4>Sort by</h4>
+                    <div class="media">
+                        <select class="form-control">
+                            <option class="selected">Last updated</option>
+                            <option>Newest</option>
+                            <option>Oldest</option>
+                        </select>
+                        <ul>
+                            <li>
+                                <p>240 results available</p>
+                            </li>
+                            <li>
+                                    Add new
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="tab1" class="tab-content active">
+                    <div class="portal-detail">
+                        <div class="portal-row">
+                            <div class="portal-col">
+                                <div class="portal-box">
+                                    <div class="media">
+                                        <span>
+                                            <img src="images/mobile-icon.png" alt="" />
+                                        </span>
+                                        <ul>
+                                            <li>
+                                                <div class="status">Digital Banking</div>
+                                            </li>
+                                            <li>Business</li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-box">
+                                        <h4>Stream-services</h4>
+                                        <p>Stream Services are an Open-Source accelerator to connect with Backbase "out-of-the-box" components that talk to DBS and are responsible for orchestrating calls to DBS. The orchestration of calling different services is written in a functional programming style on project reactor enabling resiliency and scalability. Stream Services are packaged as libraries that can be included in any project, REST Service and/or Spring Cloud Data Flow Applications.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portal-col">
+                                <div class="portal-box">
+                                    <div class="media">
+                                        <span>
+                                            <img src="images/web-icon.png" alt="" />
+                                        </span>
+                                        <ul>
+                                            <li>
+                                                <div class="status">Digital Banking</div>
+                                            </li>
+                                            <li>Business</li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-box">
+                                        <h4>Stream-services</h4>
+                                        <p>Stream Services are an Open-Source accelerator to connect with Backbase "out-of-the-box" components that talk to DBS and are responsible for orchestrating calls to DBS. The orchestration of calling different services is written in a functional programming style on project reactor enabling resiliency and scalability. Stream Services are packaged as libraries that can be included in any project, REST Service and/or Spring Cloud Data Flow Applications.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portal-col">
+                                <div class="portal-box">
+                                    <div class="media">
+                                        <span>
+                                            <img src="images/mobile-icon.png" alt="" />
+                                        </span>
+                                        <ul>
+                                            <li>
+                                                <div class="status">Digital Banking</div>
+                                            </li>
+                                            <li>Business</li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-box">
+                                        <h4>Stream-services</h4>
+                                        <p>Stream Services are an Open-Source accelerator to connect with Backbase "out-of-the-box" components that talk to DBS and are responsible for orchestrating calls to DBS. The orchestration of calling different services is written in a functional programming style on project reactor enabling resiliency and scalability. Stream Services are packaged as libraries that can be included in any project, REST Service and/or Spring Cloud Data Flow Applications.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portal-col">
+                                <div class="portal-box">
+                                    <div class="media">
+                                        <span>
+                                            <img src="images/web&mobile-icon.png" alt="" />
+                                        </span>
+                                        <ul>
+                                            <li>
+                                                <div class="status">Digital Banking</div>
+                                            </li>
+                                            <li>Business</li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-box">
+                                        <h4>Stream-services</h4>
+                                        <p>Stream Services are an Open-Source accelerator to connect with Backbase "out-of-the-box" components that talk to DBS and are responsible for orchestrating calls to DBS. The orchestration of calling different services is written in a functional programming style on project reactor enabling resiliency and scalability. Stream Services are packaged as libraries that can be included in any project, REST Service and/or Spring Cloud Data Flow Applications.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portal-col">
+                                <div class="portal-box">
+                                    <div class="media">
+                                        <span>
+                                            <img src="images/web-icon.png" alt="" />
+                                        </span>
+                                        <ul>
+                                            <li>
+                                                <div class="status">Digital Banking</div>
+                                            </li>
+                                            <li>Business</li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-box">
+                                        <h4>Stream-services</h4>
+                                        <p>Stream Services are an Open-Source accelerator to connect with Backbase "out-of-the-box" components that talk to DBS and are responsible for orchestrating calls to DBS. The orchestration of calling different services is written in a functional programming style on project reactor enabling resiliency and scalability. Stream Services are packaged as libraries that can be included in any project, REST Service and/or Spring Cloud Data Flow Applications.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portal-col">
+                                <div class="portal-box">
+                                    <div class="media">
+                                        <span>
+                                            <img src="images/mobile-icon.png" alt="" />
+                                        </span>
+                                        <ul>
+                                            <li>
+                                                <div class="status">Digital Banking</div>
+                                            </li>
+                                            <li>Business</li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-box">
+                                        <h4>Stream-services</h4>
+                                        <p>Stream Services are an Open-Source accelerator to connect with Backbase "out-of-the-box" components that talk to DBS and are responsible for orchestrating calls to DBS. The orchestration of calling different services is written in a functional programming style on project reactor enabling resiliency and scalability. Stream Services are packaged as libraries that can be included in any project, REST Service and/or Spring Cloud Data Flow Applications.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portal-col">
+                                <div class="portal-box">
+                                    <div class="media">
+                                        <span>
+                                            <img src="images/mobile-icon.png" alt="" />
+                                        </span>
+                                        <ul>
+                                            <li>
+                                                <div class="status">Digital Banking</div>
+                                            </li>
+                                            <li>Business</li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-box">
+                                        <h4>Stream-services</h4>
+                                        <p>Stream Services are an Open-Source accelerator to connect with Backbase "out-of-the-box" components that talk to DBS and are responsible for orchestrating calls to DBS. The orchestration of calling different services is written in a functional programming style on project reactor enabling resiliency and scalability. Stream Services are packaged as libraries that can be included in any project, REST Service and/or Spring Cloud Data Flow Applications.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portal-col">
+                                <div class="portal-box">
+                                    <div class="media">
+                                        <span>
+                                            <img src="images/web&mobile-icon.png" alt="" />
+                                        </span>
+                                        <ul>
+                                            <li>
+                                                <div class="status">Digital Banking</div>
+                                            </li>
+                                            <li>Business</li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-box">
+                                        <h4>Stream-services</h4>
+                                        <p>Stream Services are an Open-Source accelerator to connect with Backbase "out-of-the-box" components that talk to DBS and are responsible for orchestrating calls to DBS. The orchestration of calling different services is written in a functional programming style on project reactor enabling resiliency and scalability. Stream Services are packaged as libraries that can be included in any project, REST Service and/or Spring Cloud Data Flow Applications.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portal-col">
+                                <div class="portal-box">
+                                    <div class="media">
+                                        <span>
+                                            <img src="images/mobile-icon.png" alt="" />
+                                        </span>
+                                        <ul>
+                                            <li>
+                                                <div class="status">Digital Banking</div>
+                                            </li>
+                                            <li>Business</li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-box">
+                                        <h4>Stream-services</h4>
+                                        <p>Stream Services are an Open-Source accelerator to connect with Backbase "out-of-the-box" components that talk to DBS and are responsible for orchestrating calls to DBS. The orchestration of calling different services is written in a functional programming style on project reactor enabling resiliency and scalability. Stream Services are packaged as libraries that can be included in any project, REST Service and/or Spring Cloud Data Flow Applications.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab2" class="tab-content">
+                    <div class="portal-detail">
+                        <div class="portal-row">
+                            <div class="portal-col">
+                                <div class="portal-box">
+                                    <div class="media">
+                                        <span>
+                                            <img src="images/web&mobile-icon.png" alt="" />
+                                        </span>
+                                        <ul>
+                                            <li>
+                                                <div class="status">Digital Banking</div>
+                                            </li>
+                                            <li>Business</li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-box">
+                                        <h4>Stream-services</h4>
+                                        <p>Stream Services are an Open-Source accelerator to connect with Backbase "out-of-the-box" components that talk to DBS and are responsible for orchestrating calls to DBS. The orchestration of calling different services is written in a functional programming style on project reactor enabling resiliency and scalability. Stream Services are packaged as libraries that can be included in any project, REST Service and/or Spring Cloud Data Flow Applications.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portal-col">
+                                <div class="portal-box">
+                                    <div class="media">
+                                        <span>
+                                            <img src="images/web&mobile-icon.png" alt="" />
+                                        </span>
+                                        <ul>
+                                            <li>
+                                                <div class="status">Digital Banking</div>
+                                            </li>
+                                            <li>Business</li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-box">
+                                        <h4>Stream-services</h4>
+                                        <p>Stream Services are an Open-Source accelerator to connect with Backbase "out-of-the-box" components that talk to DBS and are responsible for orchestrating calls to DBS. The orchestration of calling different services is written in a functional programming style on project reactor enabling resiliency and scalability. Stream Services are packaged as libraries that can be included in any project, REST Service and/or Spring Cloud Data Flow Applications.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portal-col">
+                                <div class="portal-box">
+                                    <div class="media">
+                                        <span>
+                                            <img src="images/web&mobile-icon.png" alt="" />
+                                        </span>
+                                        <ul>
+                                            <li>
+                                                <div class="status">Digital Banking</div>
+                                            </li>
+                                            <li>Business</li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-box">
+                                        <h4>Stream-services</h4>
+                                        <p>Stream Services are an Open-Source accelerator to connect with Backbase "out-of-the-box" components that talk to DBS and are responsible for orchestrating calls to DBS. The orchestration of calling different services is written in a functional programming style on project reactor enabling resiliency and scalability. Stream Services are packaged as libraries that can be included in any project, REST Service and/or Spring Cloud Data Flow Applications.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab3" class="tab-content">
+                    <div class="portal-detail">
+                        <div class="portal-row">
+                            <div class="portal-col">
+                                <div class="portal-box">
+                                    <div class="media">
+                                        <span>
+                                            <img src="images/web-icon.png" alt="" />
+                                        </span>
+                                        <ul>
+                                            <li>
+                                                <div class="status">Digital Banking</div>
+                                            </li>
+                                            <li>Business</li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-box">
+                                        <h4>Stream-services</h4>
+                                        <p>Stream Services are an Open-Source accelerator to connect with Backbase "out-of-the-box" components that talk to DBS and are responsible for orchestrating calls to DBS. The orchestration of calling different services is written in a functional programming style on project reactor enabling resiliency and scalability. Stream Services are packaged as libraries that can be included in any project, REST Service and/or Spring Cloud Data Flow Applications.</p>
+                                    </div>
+                            </div>
+                            <div class="portal-col">
+                                <div class="portal-box">
+                                    <div class="media">
+                                        <span>
+                                            <img src="images/web-icon.png" alt="" />
+                                        </span>
+                                        <ul>
+                                            <li>
+                                                <div class="status">Digital Banking</div>
+                                            </li>
+                                            <li>Business</li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-box">
+                                        <h4>Stream-services</h4>
+                                        <p>Stream Services are an Open-Source accelerator to connect with Backbase "out-of-the-box" components that talk to DBS and are responsible for orchestrating calls to DBS. The orchestration of calling different services is written in a functional programming style on project reactor enabling resiliency and scalability. Stream Services are packaged as libraries that can be included in any project, REST Service and/or Spring Cloud Data Flow Applications.</p>
+                                </div>
+                            </div>
+                            <div class="portal-col">
+                                <div class="portal-box">
+                                    <div class="media">
+                                        <span>
+                                            <img src="images/web-icon.png" alt="" />
+                                        </span>
+                                        <ul>
+                                            <li>
+                                                <div class="status">Digital Banking</div>
+                                            </li>
+                                            <li>Business</li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-box">
+                                        <h4>Stream-services</h4>
+                                        <p>Stream Services are an Open-Source accelerator to connect with Backbase "out-of-the-box" components that talk to DBS and are responsible for orchestrating calls to DBS. The orchestration of calling different services is written in a functional programming style on project reactor enabling resiliency and scalability. Stream Services are packaged as libraries that can be included in any project, REST Service and/or Spring Cloud Data Flow Applications.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portal-col">
+                                <div class="portal-box">
+                                    <div class="media">
+                                        <span>
+                                            <img src="images/web-icon.png" alt="" />
+                                        </span>
+                                        <ul>
+                                            <li>
+                                                <div class="status">Digital Banking</div>
+                                            </li>
+                                            <li>Business</li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-box">
+                                        <h4>Stream-services</h4>
+                                        <p>Stream Services are an Open-Source accelerator to connect with Backbase "out-of-the-box" components that talk to DBS and are responsible for orchestrating calls to DBS. The orchestration of calling different services is written in a functional programming style on project reactor enabling resiliency and scalability. Stream Services are packaged as libraries that can be included in any project, REST Service and/or Spring Cloud Data Flow Applications.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portal-col">
+                                <div class="portal-box">
+                                    <div class="media">
+                                        <span>
+                                            <img src="images/web-icon.png" alt="" />
+                                        </span>
+                                        <ul>
+                                            <li>
+                                                <div class="status">Digital Banking</div>
+                                            </li>
+                                            <li>Business</li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-box">
+                                        <h4>Stream-services</h4>
+                                        <p>Stream Services are an Open-Source accelerator to connect with Backbase "out-of-the-box" components that talk to DBS and are responsible for orchestrating calls to DBS. The orchestration of calling different services is written in a functional programming style on project reactor enabling resiliency and scalability. Stream Services are packaged as libraries that can be included in any project, REST Service and/or Spring Cloud Data Flow Applications.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portal-col">
+                                <div class="portal-box">
+                                    <div class="media">
+                                        <span>
+                                            <img src="images/web-icon.png" alt="" />
+                                        </span>
+                                        <ul>
+                                            <li>
+                                                <div class="status">Digital Banking</div>
+                                            </li>
+                                            <li>Business</li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-box">
+                                        <h4>Stream-services</h4>
+                                        <p>Stream Services are an Open-Source accelerator to connect with Backbase "out-of-the-box" components that talk to DBS and are responsible for orchestrating calls to DBS. The orchestration of calling different services is written in a functional programming style on project reactor enabling resiliency and scalability. Stream Services are packaged as libraries that can be included in any project, REST Service and/or Spring Cloud Data Flow Applications.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; Backbase 2024 All rights reserved.</p>
-        <p>Cookie Policy</p><p>Privacy Policy</p>
-        
+        <div class="container">
+            <div class="footer-inner">
+                <div class="nav-title">
+                    <a href="https://www.backbase.com/"><img src="assets/backbaselogo.png" alt="" /></a>
+                </div>
+                <p>&copy; 2024 All rights reserved</p>
+                <ul>
+                    <li><a href="https://www.backbase.com/privacy-policy">Cookie Policy</a></li>
+                    <li>.</li>
+                    <li><a href="https://www.backbase.com/privacy-policy">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
     </footer>
-</body>
-</html>
